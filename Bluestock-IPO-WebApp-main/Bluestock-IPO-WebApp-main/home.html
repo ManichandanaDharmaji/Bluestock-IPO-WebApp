@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+  
+  <style>
+    .background{
+        background-color:rgb(243, 248, 253);
+        height:101%;
+        width:100vw;
+
+    }
+    .nav-access{
+        padding-left: 60px;
+    }
+    
+    .navbar {
+      background-color: white;
+      padding: 0px;
+    }
+    .margin-adjustment{
+        padding-top:150px;
+        padding-left: 70px;
+        font-family: Roboto;
+
+    }
+    .margin-adjustment-2{
+        padding-left: 70px;
+        font-family: Roboto;
+        padding-top:50px;
+    }
+    .btn-var{
+        height:15px;
+        width:45px;
+        padding:0px;   
+        font-size:8px;
+         margin-top:10px;
+    }
+    .button-adjustment{
+        margin-left: 550px;
+        height:40px;
+        width:130px;
+        border-radius:8px;
+    }
+    .bg-doc{
+        background-color: white;
+        font-family: Roboto;
+        margin:40px;
+        height:350px;
+        width:470px;
+        border-radius:12px;
+        }
+    .bg-doc-2{
+        background-color: white;
+        font-family: Roboto;
+        margin:40px;
+        height:350px;
+        width:470px;
+        border-radius:12px;
+    }
+    .content-head{
+        font-family: Roboto;
+        font-size: 13px;
+    }
+    .container{
+        padding-top:35px;
+        padding-left:35px;
+    }
+    .img-section{
+        height:80px;
+        width:100px;
+        margin-left: 20px;
+        
+    }
+    .content-paragraph{
+        font-weight: bold;
+        font-size: 16px;
+
+    }
+    .button-arch{
+        background-color:rgb(222, 235, 247);
+        border-style:solid;
+        border-width:1px;
+        border-color:rgb(222, 235, 247);
+        border-radius: 12px;
+        color:black;
+        font-weight: bold;
+    }
+    .app-logo{
+        height:70px;
+        width:300px;
+        
+    }
+    .content-variables-1{
+        background-color: white;
+        height:400px;
+        width:1080px;
+        font-family:Roboto;
+        text-align: center;
+        margin-top: 45px;
+        border-radius:15px;
+    }
+    .content-variables-2{
+        background-color: white;
+        height:350px;
+        width:650px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family:Roboto;
+        text-align: center;
+        margin-top: 45px;
+        border-radius:15px;
+
+    }
+  </style>
+  </head>
+  <body>
+     <div class="background">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="icons/logo.png"
+                  class="app-logo"
+                />
+              </a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav  nav-access">
+                  <a class="nav-link active" href="#section1">
+                    IPO
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a href="#section2"class="nav-link"  id="navItem3">COMMUNITY</a>
+                  <a href="#section3"class="nav-link"  id="navItem4">Products <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg></a>
+                  <a href="#section4"class="nav-link"  id="navItem5">Brokers <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg></a>
+                  <a href="#section5"class="nav-link"  id="navItem6">Live news</a>
+                  <a href="#section6"><button class="btn btn-primary btn-var">
+                           News
+                  </button>
+                </a>
+                </div>
+              </div>
+              <a href="signin.html"><p style="padding-top: 15px;">sign in</p></a>
+              <!-- <button class="btn btn-primary ml-5">
+                Sign up now
+              </button> -->
+              <button class="btn btn-primary ml-5" onclick="window.location.href='signup.html'">
+                Sign up now
+            </button>
+            
+            </div>
+          </nav>
+     <div class="d-flex flex-column margin-adjustment" id="section1">
+        <div class="d-flex flex-column justify-content-start">
+            <h1 style="font-weight: bold;font-size:28px;">IPO</h1>
+            <p style="font-size:13px;">
+                Following is the list of companies for IPO as of today
+            </p>
+
+        </div>
+        <div class="d-flex flex-row">  
+            <div class="d-flex flex-row justify-content-start">      
+            <div class="d-flex flex-column">
+            <h1 style="font-size:22px;">Upcoming</h1>
+            <p style="font-size:13px;">
+                Companies that have filed for an ipo with SEBI.Few details might be disclosed by the companies later on.
+            </p>
+        </div>
+    </div>
+         <div class="d-flex flex-row justify-content-center">
+              <button class="btn btn-primary button-adjustment ">
+                View All
+            </button>
+         </div>
+
+        </div>
+     </div>
+    <div class="d-flex flex-row justify-content-center " id="section2">
+        <div class="d-flex flex-column  bg-doc shadow">
+            <div class="d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="img-section"/>
+                <a style="font-size: 22px;" href="" class="pt-4 pl-5">Nove Agritech Ltd.</a></div>
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column  container">
+                        <h1 class="content-head">
+                            PRICE BAND
+                        </h1>
+                        <p class="content-paragraph">
+                            Rs 39-41
+                        </p>
+                       </div>
+                       <div class="d-flex flex-column container">
+                        <h1 class="content-head">
+                            OPEN
+                        </h1>
+                        <p class="content-paragraph">
+                            2023-01-22
+                        </p>
+
+                      </div>
+                      <div class="d-flex flex-column container">
+                        <h1 class="content-head">
+                            CLOSE
+                        </h1>
+                        <p class="content-paragraph">
+                            2023-01-24
+                        </p>
+
+                      </div>
+
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              ISSUE SIZE
+                          </h1>
+                          <p class="content-paragraph">
+                              143.81 Cr.
+                          </p>
+                         </div>
+                         <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              ISSUE TYPE
+                          </h1>
+                          <p class="content-paragraph">
+                              Book Built
+                          </p>
+  
+                        </div>
+                        <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              LISTING DATE
+                          </h1>
+                          <p class="content-paragraph">
+                              2024-01-30
+                          </p>
+  
+                        </div>
+  
+                      </div>
+  
+                </div>
+                <div class="d-flex flex-row justify-content-start">
+                    <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                        RHP
+                    </button>
+                    <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                        DHRP    
+                    </button>
+                </div>
+
+        </div >
+        <div class="d-flex flex-column bg-doc shadow">
+            <div class="d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="img-section   pt-2"/>
+                <a style="font-size: 22px;" href="" class="pt-4 pl-5">Ebeck Durable Ltd.</a> </div>
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column  container">
+                        <h1 class="content-head">
+                            PRICE BAND
+                        </h1>
+                        <p class="content-paragraph">
+                            Rs 218-230
+                        </p>
+                       </div>
+                       <div class="d-flex flex-column container">
+                        <h1 class="content-head">
+                            OPEN
+                        </h1>
+                        <p class="content-paragraph">
+                            2023-01-19
+                        </p>
+
+                      </div>
+                      <div class="d-flex flex-column container">
+                        <h1 class="content-head">
+                            CLOSE
+                        </h1>
+                        <p class="content-paragraph">
+                            2023-01-23
+                        </p>
+
+                      </div>
+
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              ISSUE SIZE
+                          </h1>
+                          <p class="content-paragraph">
+                              640.05 Cr.
+                          </p>
+                         </div>
+                         <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              ISSUE TYPE
+                          </h1>
+                          <p class="content-paragraph">
+                              Book Built
+                          </p>
+  
+                        </div>
+                        <div class="d-flex flex-column container">
+                          <h1 class="content-head">
+                              LISTING DATE
+                          </h1>
+                          <p class="content-paragraph">
+                              2024-01-29
+                          </p>
+  
+                        </div>
+  
+                      </div>
+  
+                </div>
+                <div class="d-flex flex-row justify-content-start">
+                    <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                        RHP
+                    </button>
+                    <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                        DHRP    
+                    </button>
+                </div>
+        </div>
+        <div class="d-flex flex-column bg-doc shadow">
+            <div class="d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="img-section"/>
+                <a style="font-size: 20px;" href="" class="pt-4 pl-5">RK Swathy Ltd.</a>
+
+            </div>
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row">
+                  <div class="d-flex flex-column  container">
+                    <h1 class="content-head">
+                        PRICE BAND
+                    </h1>
+                    <p class="content-paragraph">
+                        NOT ISSUED
+                    </p>
+                   </div>
+                   <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        OPEN
+                    </h1>
+                    <p class="content-paragraph">
+                        NOT ISSUED
+                    </p>
+
+                  </div>
+                  <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        CLOSE
+                    </h1>
+                    <p class="content-paragraph">
+                        NOT ISSUED
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE SIZE
+                      </h1>
+                      <p class="content-paragraph">
+                          NOT ISSUED
+                      </p>
+                     </div>
+                     <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE TYPE
+                      </h1>
+                      <p class="content-paragraph">
+                          NOT ISSUED
+                      </p>
+
+                    </div>
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          LISTING DATE
+                      </h1>
+                      <p class="content-paragraph">
+                          NOT ISSUED
+                      </p>
+
+                    </div>
+
+                  </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    RHP
+                </button>
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    DHRP    
+                </button>
+            </div>
+
+    </div>
+</div>   
+
+
+
+<div class="d-flex flex-row justify-content-center">
+    <div class="d-flex flex-column text-center content-variables-1 shadow">
+        <div class="d-flex flex-row justify-content-center">
+            <img
+            src="icons/logo.png"
+            class="app-logo mt-4"
+          />
+    </div>
+        <h1 style="font-weight: bold;font-size: 42px;">
+            Applying for the IPO ?
+        </h1>
+        <p style="font-family:Roboto;font-size:20px;padding:25px; text-align:center;">
+            The  way  you  compare & invest in only the best IPO , let us help you  get started by comparing   and   selecting the best Demat account.Open your Demat account now to apply to your favourite IPO.
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="btn btn-primary" style="border-radius:12px;">
+                 Open a Demat account
+            </button>
+
+        </div>
+    </div>
+
+</div>
+<div class="d-flex flex-row margin-adjustment">  
+    <div class="d-flex flex-row justify-content-start">      
+    <div class="d-flex flex-column">
+    <h1 style="font-size:22px;">Upcoming</h1>
+    <p style="font-size:13px;" >
+        Companies where the IPO investment process started and will be listed soon in the stock market for regular trading. 
+    </p>
+</div>
+</div>
+ <div class="d-flex flex-row justify-content-center ">
+      <button class="btn btn-primary button-adjustment" style="margin-left:500px;">
+        View All
+    </button>
+ </div>
+
+</div>
+<div class="d-flex flex-column bg-doc-2 shadow" id="section3">
+    <div class="d-flex flex-row justify-content-start">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="img-section   pt-2"/>
+        <a style="font-size: 22px;" href="" class="pt-4 pl-5">Ebeck Durable Ltd.</a> </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+              <div class="d-flex flex-column  container">
+                <h1 class="content-head">
+                    PRICE BAND
+                </h1>
+                <p class="content-paragraph">
+                    Rs 218-230
+                </p>
+               </div>
+               <div class="d-flex flex-column container">
+                <h1 class="content-head">
+                    OPEN
+                </h1>
+                <p class="content-paragraph">
+                    2023-01-19
+                </p>
+
+              </div>
+              <div class="d-flex flex-column container">
+                <h1 class="content-head">
+                    CLOSE
+                </h1>
+                <p class="content-paragraph">
+                    2023-01-23
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      ISSUE SIZE
+                  </h1>
+                  <p class="content-paragraph">
+                      640.05 Cr.
+                  </p>
+                 </div>
+                 <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      ISSUE TYPE
+                  </h1>
+                  <p class="content-paragraph">
+                      Book Built
+                  </p>
+
+                </div>
+                <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      LISTING DATE
+                  </h1>
+                  <p class="content-paragraph">
+                      2024-01-29
+                  </p>
+
+                </div>
+
+              </div>
+
+        </div>
+        <div class="d-flex flex-row justify-content-start">
+            <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                RHP
+            </button>
+            <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                DHRP    
+            </button>
+        </div>
+</div>
+
+<div class="d-flex flex-row margin-adjustment-2">  
+    <div class="d-flex flex-row justify-content-start">      
+    <div class="d-flex flex-column">
+    <h1 style="font-size:22px;">New Listed</h1>
+    <p style="font-size:13px;">
+        Companies that have been listed recently through an IPO . Find their listing gains and return here 
+    </p>
+</div>
+</div>
+ <div class="d-flex flex-row justify-end pl-5 ">
+      <button class="btn btn-primary button-adjustment ">
+        View All
+    </button>
+ </div>
+
+</div>
+<div class="d-flex flex-row justify-content-center " id="section4">
+    <div class="d-flex flex-column  bg-doc shadow">
+        <div class="d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="img-section"/>
+            <a style="font-size: 22px;" href="" class="pt-4 pl-5">Nove Agritech Ltd.</a></div>
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row">
+                  <div class="d-flex flex-column  container">
+                    <h1 class="content-head">
+                        PRICE BAND
+                    </h1>
+                    <p class="content-paragraph">
+                        Rs 39-41
+                    </p>
+                   </div>
+                   <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        OPEN
+                    </h1>
+                    <p class="content-paragraph">
+                        2023-01-22
+                    </p>
+
+                  </div>
+                  <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        CLOSE
+                    </h1>
+                    <p class="content-paragraph">
+                        2023-01-24
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE SIZE
+                      </h1>
+                      <p class="content-paragraph">
+                          143.81 Cr.
+                      </p>
+                     </div>
+                     <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE TYPE
+                      </h1>
+                      <p class="content-paragraph">
+                          Book Built
+                      </p>
+
+                    </div>
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          LISTING DATE
+                      </h1>
+                      <p class="content-paragraph">
+                          2024-01-30
+                      </p>
+
+                    </div>
+
+                  </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    RHP
+                </button>
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    DHRP    
+                </button>
+            </div>
+
+    </div >
+    <div class="d-flex flex-column bg-doc shadow">
+        <div class="d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="img-section   pt-2"/>
+            <a style="font-size: 22px;" href="" class="pt-4 pl-5">Ebeck Durable Ltd.</a> </div>
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row">
+                  <div class="d-flex flex-column  container">
+                    <h1 class="content-head">
+                        PRICE BAND
+                    </h1>
+                    <p class="content-paragraph">
+                        Rs 218-230
+                    </p>
+                   </div>
+                   <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        OPEN
+                    </h1>
+                    <p class="content-paragraph">
+                        2023-01-19
+                    </p>
+
+                  </div>
+                  <div class="d-flex flex-column container">
+                    <h1 class="content-head">
+                        CLOSE
+                    </h1>
+                    <p class="content-paragraph">
+                        2023-01-23
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE SIZE
+                      </h1>
+                      <p class="content-paragraph">
+                          640.05 Cr.
+                      </p>
+                     </div>
+                     <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          ISSUE TYPE
+                      </h1>
+                      <p class="content-paragraph">
+                          Book Built
+                      </p>
+
+                    </div>
+                    <div class="d-flex flex-column container">
+                      <h1 class="content-head">
+                          LISTING DATE
+                      </h1>
+                      <p class="content-paragraph">
+                          2024-01-29
+                      </p>
+
+                    </div>
+
+                  </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    RHP
+                </button>
+                <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                    DHRP    
+                </button>
+            </div>
+    </div>
+    <div class="d-flex flex-column bg-doc shadow">
+        <div class="d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="img-section"/>
+            <a style="font-size: 20px;" href="" class="pt-4 pl-5">RK Swathy Ltd.</a>
+
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+              <div class="d-flex flex-column  container">
+                <h1 class="content-head">
+                    PRICE BAND
+                </h1>
+                <p class="content-paragraph">
+                    NOT ISSUED
+                </p>
+               </div>
+               <div class="d-flex flex-column container">
+                <h1 class="content-head">
+                    OPEN
+                </h1>
+                <p class="content-paragraph">
+                    NOT ISSUED
+                </p>
+
+              </div>
+              <div class="d-flex flex-column container">
+                <h1 class="content-head">
+                    CLOSE
+                </h1>
+                <p class="content-paragraph">
+                    NOT ISSUED
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      ISSUE SIZE
+                  </h1>
+                  <p class="content-paragraph">
+                      NOT ISSUED
+                  </p>
+                 </div>
+                 <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      ISSUE TYPE
+                  </h1>
+                  <p class="content-paragraph">
+                      NOT ISSUED
+                  </p>
+
+                </div>
+                <div class="d-flex flex-column container">
+                  <h1 class="content-head">
+                      LISTING DATE
+                  </h1>
+                  <p class="content-paragraph">
+                      NOT ISSUED
+                  </p>
+
+                </div>
+
+              </div>
+
+        </div>
+        <div class="d-flex flex-row justify-content-start">
+            <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                RHP
+            </button>
+            <button class="btn btn-primary button-arch ml-5 mt-2 pl-5">
+                DHRP    
+            </button>
+        </div>
+
+</div>
+</div>   
+
+<div class="d-flex flex-row " id="section5">
+    <div class="d-flex flex-column content-variables-2 shadow ">
+             <h1 style="font-weight: Bold;text-align: left;font-size: 25px;padding:25px;padding-left: 30px;">
+                IPO News
+             </h1>
+             <h2 style="text-align: left;font-size: 15px;font-weight:bold; padding-left:30px;">
+                Brainbees Solution files DHRP with SEBI
+           </h2>
+           <p style="text-align: left; padding-left:30px;font-weight: lighter">
+                29 DEC, 2:40 PM
+           </p>
+           <h2 style="text-align: left;font-size: 15px;font-weight:bold; padding-left:30px;">
+            Gretex Share Broking files DHRP WITH SEBI 
+           </h2>
+           <p style="text-align: left; padding-left:30px;font-weight: lighter">
+               22 DEC, 2:47 PM
+           </p>
+    </div>
+    <div class="d-flex flex-column content-variables-2 shadow">
+        <h1 style="font-weight: Bold;text-align: left;font-size: 25px;padding:25px;padding-left: 30px;">
+            IPO Analysis
+         </h1>
+         <h2 style="text-align: left;font-size: 15px;font-weight:bold; padding-left:30px;">
+           Euphoria Infotech India coming with IPO to raise upto Rs 9.60 crore
+       </h2>
+       <p style="text-align: left; padding-left:30px;font-weight: lighter;">
+            18 JAN, 2:40 PM
+       </p>
+       <h2 style="text-align: left;font-size: 15px;font-weight:bold; padding-left:30px;">
+        EPACK Durable coming with IPO to raise upto Rs 662 crore 
+       </h2>
+       <p style="text-align: left; padding-left:30px;font-weight: lighter">
+           17 JAN, 2:47 PM
+       </p>
+       <h2 style="text-align: left;font-size: 15px;font-weight:bold; padding-left:30px;">
+        Qualitek Labs coming with IPO to raise upto Rs 19.64 crore
+       </h2>
+       <p style="text-align: left; padding-left:30px;font-weight: lighter">
+           17 JAN, 2:47 PM
+       </p>
+        
+
+    </div>
+</div>
+<div id="section6">
+  <h1 class="margin-adjustment-2" style="font-size: 24px;font-weight: bold;">
+    Frequently Asked Questions?
+  </h1>
+  <p style=" padding-left: 70px;font-family: Roboto;">
+    Find answers to common questions that came in your mind related to IPO.
+
+  </p>
+  <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            What is an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        <p style="font-family: Roboto;font-size: 18px;">
+            IPO or the initial Public Offering is the first time a company issues its shares to the public.As an invester, you will now be able to subscribe for such shares, which was earlier open to only a specific iot of internet and instructional investers via opening a Demat account
+        </p>
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            How to invest in an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">What is the benefit of an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            What are the disadvantages of an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            What is the difference between book building issue and fixed price issue?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            Is it mandatory to have a PAN number to apply in an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            Where do i get an IPO application form?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            How one can apply in IPO's online?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            How one can apply in IPO's offline?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            Can a minor apply in an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            What is the procedure to withdraw from an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            How is IPO return calculated?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            Can one apply for an IPO from a sweep in/out saving bank account?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            What is the minimum and maximum investment one could do in the HNI category?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+ <div class="d-flex flex-column shadow" style="background-color: white;margin:80px;border-radius: 12px;padding:40px;font-family: Roboto;">
+    <div class="d-flex flex-row justify-content-start">
+        <h2 style="font-weight: bold;">
+            How to apply more than one application in an IPO?
+        </h2>
+    </div>
+        <p style="text-align: end;margin-right: 50px;"><a class="nav-link"  style="font-size: 42px;"id="navItem5">+ <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+          </svg></a>
+</p>
+        
+ </div>
+</div>
+    </div>
+  </body>
+  </html>
